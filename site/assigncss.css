@@ -5,9 +5,16 @@
     margin: 1px;
     padding: 1px; 
 }
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height:100vh;
+   
+    background-position:center;
+}
 h1 {
     text-align: center;
     margin-bottom: 15px;
+    color: pink;
 }
 div#container{
  
@@ -69,7 +76,7 @@ section{
 
 #h1 {
    float: right;
-   background-color:cyan;
+   background-color:rgb(88, 77, 77);
    border: solid black;
    width: 20%;
     height: 3.5%;
@@ -80,7 +87,7 @@ section{
 }
 #h2 {
    float: right;
-   background-color:darksalmon;
+   background-color:rgb(88, 77, 77);
    border: solid black;
    width: 20%;
     height: 3.5%;
@@ -91,7 +98,7 @@ section{
 }
 #h3 {
    float: right;
-   background-color:deepskyblue;
+   background-color:rgb(88, 77, 77);
    border: solid black;
    width: 20%;
     height: 3.5%;
