@@ -3,13 +3,18 @@
         <title></title>
     </head>
     <body bgcolor="pink">
+        <h1><b><u><pre>MODULE 4 JAVASCRIPT ASSIGNMENT</pre></u></b></h1>
+        <div id="output"><h2></h2></div>
+
+        
         <script>
             var p=prompt("Your good name?");
-            alert("Welcome,"+p+".This is my Module 4 assignment on javascript.")
-            var arr=["Jessica","Kathy","Dymphy","Jenny"];
+            alert("Welcome,"+p+".This is my Module 4 assignment on javascript.");
+            output.innerHTML="Hi,"+p+" .Checkout the console for my output.";
+            var arr=[" Yaakov","John","Jen","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
             console.log("My array is "+ arr);
             i=0,j=0;
-            while(i<4)
+            while(i<arr.length)
             {
             if(arr[i][j]=="J")
             {
